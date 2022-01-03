@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+/* ===== Universal Things ===== */
+:root {
+
+    //* COLORS
+    --NavColor: #00395A;
+    --teamHeader: #005F98;
+
+
+    //* SHADOWS
+    --shadow1: 0 2px 8px 0 rgb(45 53 62 / 10%);
+
+
+    //* FONT-SIZES
+    --fs-heading-big: 4rem;
+    --fs-heading: 3rem;
+    --fs-title: 2.5rem;
+    --fs-text-big: 2rem;
+    --fs-text: 1.5rem;
+
+}
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    position: relative;
+    // ! This defines what 1rem is.
+    font-size: 62.5%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: Roboto, sans-serif;
+    background-color: #f1f8ff;
+}
+
+.nostyle {
+    background: transparent;
+    border: none;
+}
+
+.SuspenseLoader {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}

@@ -1,0 +1,32 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Password generator written in React with TS, Express backend and Mongo Database.",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "dev": "concurrently --names \"Server,Client\" -c \"green,blue\" \"nodemon server.js\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorH04/Password-generator.git"
+  },
+  "author": "Victor Nikolaev Hristov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorH04/Password-generator/issues"
+  },
+  "homepage": "https://github.com/VictorH04/Password-generator#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-list-endpoints": "^6.0.0",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
